@@ -21,7 +21,7 @@ namespace ConsoleApp3
             {
                 factorial = factorial * i;
             }
-            Console.WriteLine("Factorial of given nuber is:" + factorial); 
+            Console.WriteLine($"Factorial of given nuber is: "+ factorial ); 
             Console.ReadLine();
         }
     }

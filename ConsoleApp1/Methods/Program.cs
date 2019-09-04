@@ -14,10 +14,8 @@ namespace Methods
             //Your method should be named LineValueForY with a return type of double.  Y.  Your method should accept 3 parameters, all of type double.  
             //The first parameter will be the slope of the line (name this parameter m), the second parameter should be the x value (name this parameter x) 
             //and the last parameter should be the y intercept (name this parameter b).  The formula to calculate the Y value is Y = mx + b
-            double LineValueForY = 0;
-            double m;
-            double x;
-            double b;
+            double LineValueForY = 0,m,x,b;
+            
             Console.WriteLine("Please enter the slope or m:");
             m = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Please enter the x value:");
@@ -27,7 +25,7 @@ namespace Methods
             LineValueForY = (m * x) + b;
             Console.WriteLine($"Your solution is {LineValueForY}");
             Console.Read();
-
+            
 
         }
     }
